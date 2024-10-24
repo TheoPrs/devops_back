@@ -18,4 +18,4 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker buildx build --push --tag ghcr.io/theoprs/front:latest .
+          docker buildx build --push --tag ghcr.io/theoprs/back:latest .
